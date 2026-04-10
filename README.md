@@ -1,6 +1,6 @@
 # A fake noisy HDD for your silent vintage computer
 
-I just finished restoring an IBM PS/2 modle 30.
+I just finished restoring an IBM PS/2 model 30.
 Replaced the original HDD with a CF-Card and when i turned it on i felt like... it was missing something
 
 So i just grabbed an ESP32 and put on a bunch of lines of code to simulate an HDD sound
@@ -33,10 +33,15 @@ Pin D13    ---->   PC HDD Led positive Pin from Pin header on motherboard (you w
 
 # Todo
   - Make it more polished
+
     For now it is just a bunch of wire on a breadboard
+
   
   - Provide an easier method to upload samples from different HDDs
+
     At this moment, sound samples are hardcoded as raw data into the sounddata.h file
 
+
   - Maybe making a PCB
+
     Still unsure if i want to make an ISA card or an HDD-Caddy card with molex and various cables
