@@ -21,7 +21,7 @@ Pin GND    ---->   PC-GND and Negative Speaker
 
 Pin D25    ---->   Audio Output (positive speaker)
 
-Pin D13    ---->   PC HDD Led positive Pin from Pin header on motherboard (you will need a voltage divider or a level shifter because it's a 5VPP digital signal)
+Pin D13    ---->   PC HDD Led positive Pin from Pin header on motherboard (you will need a voltage divider or a level shifter because it's a 5VPP digital signal and the ESP works only with 3.3V signals)
 
 # Todo
   - Make it more polished
