@@ -12,6 +12,7 @@ It's fairly simple.
 There are two files.
 
 Drivesynth.ino   Contains the actual code
+
 Sounddata.h      Contains Raw audio data sampled from my IBM Model 30 HDD
 
 # ESP32 Setup
@@ -19,7 +20,7 @@ You'll need to install the XTronical Audio DAC Library
 
 - download it from [here](https://www.xtronical.com/wp-content/uploads/2019/10/XT_DAC_Audio-4_2_1.zip)
 - in arduino IDE go to Sketch > Include Library > Add from Zip and then select the zip file you just downloaded
-- Now open the drivesynth.ino file and it should be able to compile and upload to your ESP32
+- Now open the drivesynth.ino file and you should be able to compile and upload to your ESP32
 
 # Wire Setup
 Pin VIN    ---->   5V source from PC (it can be from a PS/2 connector or from the red wire of a molex)
